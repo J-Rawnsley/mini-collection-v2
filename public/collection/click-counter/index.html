@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click Counter</title>
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	 <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<section class="main is-size-1 is-size-2-mobile">
+		<div class="container has-text-centered">
+			<h2 class="add-margin">Welcome to the click counter</h2>
+			<h2 class="add-margin">Click "+1" to increment the total.</h2>
+			<button class="button is-primary add-margin pad-out is-size-1" onclick="clickF()">+1</button>
+			
+			<p>Total is: <span id="clicker">0</span></p>
+		</div>
+	</section>
+	
+
+<script>
+	let clickCount = 0
+	function clickF() {
+	clickCount += 1
+	document.getElementById("clicker").innerHTML = clickCount;
+	}
+</script>
+</body>
+
+
+</html>

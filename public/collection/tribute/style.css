@@ -1,0 +1,39 @@
+body {
+    background-color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  #header {
+    width: 100%;
+    color: orange;
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 30%;
+    max-height: 30%;
+    display: block;
+    margin: auto;
+    border-radius: 27%;
+  }
+  
+  #img-div {
+    color: white;
+    text-align: center
+  }
+  
+  #tribute-info {
+    color: white;
+    text-align: justify;
+    text-justify: auto;
+    max-width: 92%;
+    margin: auto;
+  }
+  
+  a:link {
+    color: 	#00CED1;
+  }
+  
+  a:visited {
+    color: #FF1493;
+  }
