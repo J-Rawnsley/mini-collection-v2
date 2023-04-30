@@ -16,7 +16,7 @@ const clickCounter = "./collection/click-counter/index.html";
 const tribute = "./collection/tribute/build-a-tribute-page.html";
 const underConstruction =
   "./collection/under_construction/under_construction.html";
-const guardian = "./guardian/guardian.html";
+const guardian = "./collection/guardian/guardian.html";
 
 const itemLinks = [
   {

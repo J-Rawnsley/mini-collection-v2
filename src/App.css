@@ -4,12 +4,11 @@ body {
 }
 
 .main-element {
-  margin: 1rem 5rem;
-  padding: 1rem 5rem;
-  background-color: #5dbaad;
-  display: grid;
-  border-radius: 25px;
-  border: 7px solid #52ab9f;
+  margin: 1rem 3%;
+  /* padding: 1rem 0; */
+  /* background-color: #5dbaad; */
+  /* border-radius: 25px; */
+  /* border: 7px solid #52ab9f; */
 }
 
 .linkbox {
@@ -20,18 +19,18 @@ body {
 }
 
 .item-link-text {
-  width: 90%;
   text-align: center;
 }
 
 .item-link-image {
-  border-radius: 4rem;
-  margin: 0 auto;
+  border-radius: 30%;
   background-color: #fff;
+  display: block;
   width: 50%;
   height: 50%;
   padding: 1.5rem;
   border: 7px solid #52ab9f;
+  margin: auto;
 }
 
 .title {
@@ -43,6 +42,7 @@ body {
 .blurb {
   color: #000;
   text-align: center;
+  margin: 0 10%;
 }
 
 a:link {
