@@ -6,8 +6,10 @@ import romanV from "./images/romanV.png";
 import palindromeImg from "./images/exchange.png";
 import mouse from "./images/mouse.png";
 import music from "./images/music.png";
-import newspaper from "./images/newspaper.png";
+// import newspaper from "./images/newspaper.png";
 import tributeImg from "./images/tribute.png";
+import weatherImg from "./images/weather.png"
+import flashcardImg from "./images/flashcard.png"
 
 const tecdoc = "./collection/tec-doc-2/tec-doc-2.html";
 const palindrome = "./collection/palindrome/index.html";
@@ -16,7 +18,9 @@ const clickCounter = "./collection/click-counter/index.html";
 const tribute = "./collection/tribute/build-a-tribute-page.html";
 const underConstruction =
   "./collection/under_construction/under_construction.html";
-const guardian = "./collection/guardian/guardian.html";
+// const guardian = "./collection/guardian/guardian.html";
+const weather = "https://jrawnsley-weather.netlify.app/"
+const flashcardURL = "https://flashcard-hint-generator.netlify.app/"
 
 const itemLinks = [
   {
@@ -34,7 +38,7 @@ const itemLinks = [
   {
     name: "Calculator",
     img: calculator,
-    link: underConstruction,
+    link: "https://casijoe-calculator.netlify.app/",
     imgDesc: "a stylised calculator icon",
   },
   /*   {
@@ -69,18 +73,30 @@ const itemLinks = [
     imgDesc: "a double quaver music note icon",
   },
 
-  {
-    name: "Newspaper Front Page",
-    img: newspaper,
-    link: guardian,
-    imgDesc: "a stylised newspaper icon",
-  },
+  // {
+  //   name: "Newspaper Front Page",
+  //   img: newspaper,
+  //   link: guardian,
+  //   imgDesc: "a stylised newspaper icon",
+  // },
   {
     name: "Tribute Page",
     img: tributeImg,
     link: tribute,
     imgDesc: "a stylised icon of a person wearing a suit",
   },
+  {
+    name: "Weather App",
+    img: weatherImg,
+    link: weather,
+    imgDesc: "an icon with a sun and a cloud",
+  },
+  {
+    name: "Flashcard Hint Generator",
+    img: flashcardImg,
+    link: flashcardURL,
+    imgDesc: "a square with a pencil, representing a flashcard used fo language learning",
+  }
 ];
 
 export default itemLinks;
