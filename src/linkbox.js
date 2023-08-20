@@ -12,7 +12,6 @@ const innerJSX = (data) =>
       />
     );
   });
-
 const Linkbox = () => {
   return (
     <section className="linkbox main-element">{innerJSX(itemLinks)}</section>
