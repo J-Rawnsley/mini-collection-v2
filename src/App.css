@@ -27,9 +27,9 @@ body {
   border-radius: 30%;
   background-color: #fff;
   display: block;
-  width: 50%;
-  height: 50%;
-  padding: 1.5rem;
+  width: 7rem;
+  height: 7rem;
+  padding: 1rem;
   /* border: 7px solid #52ab9f; */
   margin: auto;
 }
@@ -73,8 +73,18 @@ a:visited {
 .right-side {
   display: inline-block;
   vertical-align: top;
-  width: 40%;
-  padding: 0.5rem;
+  padding: 0.3rem;
+  /* border: 1px solid black; */
+}
+
+.left-side {
+  width: 30%;
+}
+.right-side {
+  text-align: left;
+  text-justify: inter-word;
+  vertical-align: middle;
+  width: 65%;
 }
 
 @media (max-width: 470px) {

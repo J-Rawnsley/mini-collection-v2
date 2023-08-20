@@ -2,13 +2,14 @@ import ItemLink from "./ItemLink";
 import itemLinks from "./linkData.js";
 
 const innerJSX = (data) =>
-  data.map((item) => {
+  data.filter(item => item.included).map((item) => {
     return (
       <ItemLink
         name={item.name}
         img={item.img}
         link={item.link}
         imgDesc={item.imgDesc}
+        projectDesc={item.projectDesc}
       />
     );
   });
