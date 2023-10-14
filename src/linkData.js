@@ -35,7 +35,7 @@ const itemLinks = [
     img: calculator,
     link: "https://casijoe-calculator.netlify.app/",
     imgDesc: "a stylised calculator icon",
-    projectDesc: "A calculator app built using React. For this project, I learned some basics of React JS, and challenged myself to build a calculator without following any tutorials or guides. In this app, if you input a sum followed by another operator button (rather than equals), it will calculate and display the answer to the first sum before carrying out the next operation on the result. This is known as 'immediate logic' and is by design, because the app is designed to behave exactly like the simple hardware calculators we used as kids. Just like those old-school calculators, this one will also repeat the same operation when the equals button is repeatedly pressed.",
+    projectDesc: "For this project, I learned some basics of React JS, and challenged myself to build a calculator without following any tutorials or guides. In this app, if you input a sum followed by another operator button (rather than equals), it will calculate and display the answer to the first sum before carrying out the next operation on the result. This is known as 'immediate logic' and is by design, because the app is designed to behave exactly like common hardware calculators used in non-scientific settings. Just like common hardware calculators, this one will also keep applying the same operation when the equals button is repeatedly pressed.",
     included: true
   },
   {
@@ -98,7 +98,7 @@ const itemLinks = [
     img: weatherImg,
     link: weather,
     imgDesc: "an icon with a sun and a cloud",
-    projectDesc: "A React app, which gets and displays the weather. For this project, I used the 'fetch' method to get waether data from openweathermap.org. The app displays current weather for 32 towns and cities in the UK.",
+    projectDesc: "This project uses the 'fetch' method to get weather data from openweathermap.org, and displays current weather for 32 towns and cities in the UK. Of course, being limited to certain UK locations means that it's not as useful as other weather apps. But it helped me to build on skills such as using state and effect hooks in React, modular programmning with reusable components, and making 3rd party API calls. The secret API key is hidden using a Netlify function to avoid a security risk.",
     included: true
   },
   {
