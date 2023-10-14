@@ -98,7 +98,7 @@ const itemLinks = [
     img: weatherImg,
     link: weather,
     imgDesc: "an icon with a sun and a cloud",
-    projectDesc: "A React app, which gets and displays the weather. For this project, I used the 'fetch' method to get waether data from openweathermap.org. The app displays current weather for 32 toowns and cities in the UK.",
+    projectDesc: "A React app, which gets and displays the weather. For this project, I used the 'fetch' method to get waether data from openweathermap.org. The app displays current weather for 32 towns and cities in the UK.",
     included: true
   },
   {
@@ -106,7 +106,7 @@ const itemLinks = [
     img: flashcardImg,
     link: flashcardURL,
     imgDesc: "a square with a pencil, representing a flashcard used for language learning",
-    projectDesc: "A flashcard is a double-sided piece of paper (or digital equivalent) with a fact (e.g. a word) on one side, and a question or hint on the other. For language learners, they are a great way to learn and remember vocabulary, but thinking of suitable questions or hints for a large number of words can be time-consuming. That's why I created this app. It uses Words API to get hints for any word or words entered. If multiple words are entered, the app will check whether an example sentence is available for that word, and if so it will make a cloze-deletion question. If there is no sentence available, the app will provide a definition as a clue. If only a single word is entered, the app will give a choice of cloze-deletion and definition hints for that word.",
+    projectDesc: "A flashcard is a double-sided piece of paper (or digital equivalent) with a fact (e.g. a word) on one side, and a question or hint on the other. It's a great way for learners of English to study and remember vocabulary, but thinking of suitable questions or hints for lots of words can be time-consuming. This app intends to speed up the process by instantly and intelligently generating useful hints for multiple words at the same time. It uses the Free Dictionary API, searching for example sentences that can be used as cloze-deletion hints, and using word definitions to create hints where no example sentences are available.",
     included: true
   },
   {
