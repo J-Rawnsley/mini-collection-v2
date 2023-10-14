@@ -20,7 +20,7 @@ const underConstruction =
   "./collection/under_construction/under_construction.html";
 const guardian = "./collection/guardian/guardian.html";
 const weather = "https://jrawnsley-weather.netlify.app/"
-const flashcardURL = "https://flashcard-hint-generator.netlify.app/"
+const flashcardURL = "https://flashcard-app-v2.netlify.app/"
 
 const itemLinks = [
  {
