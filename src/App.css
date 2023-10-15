@@ -9,6 +9,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
   grid-gap: 1rem;
   padding-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* styling for the class of individual items within the grid */
@@ -31,6 +32,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: #000;
+  margin-top: -5rem;
 }
 
 .blurb {
@@ -40,13 +42,13 @@ body {
 }
 
 /* styling for link elements to make the text look like normal text */
-a:link {
+.linkbox a:link {
   text-decoration: none;
   color: #000;
 }
 
 /* styling for link elements to make the text look like normal text */
-a:visited {
+.linkbox a:visited {
   text-decoration: none;
   color: #000;
 }
