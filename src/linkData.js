@@ -1,3 +1,6 @@
+// this file contains all the project information and can easily be updated when projects are added or deleted
+
+// import images
 import book from "./images/book.png";
 import cafe from "./images/cafe.png";
 import calculator from "./images/calculator.png";
@@ -11,6 +14,7 @@ import tributeImg from "./images/tribute.png";
 import weatherImg from "./images/weather.png"
 import flashcardImg from "./images/flashcard.png"
 
+// set urls for item links
 const tecdoc = "./collection/tec-doc-2/tec-doc-2.html";
 const palindrome = "./collection/palindrome/index.html";
 const roman = "./collection/roman/index.html";
@@ -22,6 +26,7 @@ const guardian = "./collection/guardian/guardian.html";
 const weather = "https://jrawnsley-weather.netlify.app/"
 const flashcardURL = "https://flashcard-app-v2.netlify.app/"
 
+//data used for creating the grid of project links. Only items where "included" is set to "true" will be included in the site.
 const itemLinks = [
  {
     name: "Cafe Menu",

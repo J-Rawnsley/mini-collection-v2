@@ -1,17 +1,9 @@
 body {
-  /* background-color: #CBB66F; */
   background-color: #fff;
   padding: 5%;
 }
 
-/* .main-element {
-  margin: 1rem 3%;
-  padding: 1rem 0;
-  background-color: #5dbaad;
-  border-radius: 25px;
-  border: 7px solid #52ab9f;
-} */
-
+/* styling for the grid containing the project links and descriptions */
 .linkbox {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
@@ -19,10 +11,12 @@ body {
   padding-top: 3rem;
 }
 
+/* styling for the class of individual items within the grid */
 .item-link-text {
   text-align: center;
 }
 
+/* styling for item images */
 .item-link-image {
   border-radius: 30%;
   background-color: #fff;
@@ -30,7 +24,6 @@ body {
   width: 7rem;
   height: 7rem;
   padding: 1rem;
-  /* border: 7px solid #52ab9f; */
   margin: auto;
 }
 
@@ -46,16 +39,25 @@ body {
   margin: 0rem 0rem 0rem 0rem;
 }
 
+/* styling for link elements to make the text look like normal text */
 a:link {
   text-decoration: none;
   color: #000;
 }
 
+/* styling for link elements to make the text look like normal text */
 a:visited {
   text-decoration: none;
   color: #000;
 }
 
+/* causes items to scale up when hovered over */
+.item-link:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+/* styling for individual links and defining smooth transition for hover properties */
 .item-link {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -64,11 +66,8 @@ a:visited {
   display: inline-block;
 }
 
-.item-link:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-}
 
+/* each item link is split into two parts, one for the image (left side) and one for the description (right side). This code defines widths and text-alignment */
 .left-side,
 .right-side {
   display: inline-block;
@@ -87,11 +86,12 @@ a:visited {
   width: 65%;
 }
 
+/* Adjust for smaller screens */
 @media (max-width: 470px) {
   .linkbox {
     grid-template-columns: repeat(
       auto-fill,
       minmax(10rem, 1fr)
-    ); /* Adjusted for smaller screens */
+    ); 
   }
 }

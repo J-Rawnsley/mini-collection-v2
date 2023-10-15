@@ -1,3 +1,4 @@
+// JSX element that returns a title element
 const Title = () => {
   return (
     <div className="main-element title">

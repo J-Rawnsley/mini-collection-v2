@@ -1,3 +1,5 @@
+
+// defines a top-level element called "blurb", giving a brief description of the purpose of this site
 const Blurb = () => {
   return (
     <div className="main-element">
