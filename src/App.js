@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Title />
       <Blurb />
-      <Linkbox />
       <p className="blurb">Landing page code avaiable on <a href="https://github.com/J-Rawnsley/mini-collection-v2">GitHub</a></p>
+      <Linkbox />
     </div>
   );
 }

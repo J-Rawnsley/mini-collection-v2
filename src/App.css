@@ -32,13 +32,13 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: #000;
-  margin-top: -5rem;
+  margin: -5rem 0 -1rem 0;
 }
 
 .blurb {
   color: #000;
   text-align: center;
-  margin: 0rem 0rem 0rem 0rem;
+  margin: 0.3rem 0rem 0rem 0rem;
 }
 
 /* styling for link elements to make the text look like normal text */
