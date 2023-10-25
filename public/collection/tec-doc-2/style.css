@@ -1,9 +1,9 @@
 #sidebar {  
     margin-left: 10%;
     padding: 0;
-    width: 15%;
+    width: 15%; /* sets the width of the sidebar */
     height: 100%;
-    position: fixed;
+    position: fixed; /* keeps the navbar pinned to the left side */
     overflow: auto;
      
 }
@@ -24,7 +24,7 @@
   }
 
   #main-doc {
-    margin-left: 25%;
+    margin-left: 25%; /* leaves a space on the left for the sidebar on larger screens */
     padding: 0px 2px;
     
   }
@@ -39,6 +39,7 @@
     margin-bottom: 0.8rem;
   }
   
+  /* makes sidebar appear at the top on narrower screens */
   @media (max-width: 769px){
     #sidebar {
       position: static;
@@ -73,5 +74,10 @@
 
   .main-logo {
     max-height: 10rem;
+  }
+
+  header > p {
+    color: red;
+    font-weight: bold;
   }
 
