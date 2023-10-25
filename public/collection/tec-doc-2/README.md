@@ -15,3 +15,4 @@ Full Collection at https://joes-mini-collection.netlify.app/
 
 - HTML
 - CSS
+- Bootstrap
