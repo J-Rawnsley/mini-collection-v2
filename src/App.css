@@ -1,12 +1,13 @@
 body {
   background-color: #fff;
   padding: 5%;
+  display: block;
 }
 
 /* styling for the grid containing the project links and descriptions */
 .linkbox {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   grid-gap: 1rem;
   padding-top: 3rem;
   margin-bottom: 3rem;
@@ -32,12 +33,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: #000;
-  margin: -5rem 0 -1rem 0;
+  margin: -2rem 0 -1rem 0;
 }
 
 .blurb {
   color: #000;
-  text-align: center;
+  text-align: left;
   margin: 0.3rem 0rem 0rem 0rem;
 }
 
@@ -85,7 +86,7 @@ body {
   text-align: left;
   text-justify: inter-word;
   vertical-align: middle;
-  width: 65%;
+  width: 70%;
 }
 
 /* Adjust for smaller screens */

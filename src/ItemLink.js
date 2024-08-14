@@ -15,18 +15,13 @@ const ItemLink = (props) => {
 // return statement defines the HTML layout within each item link and arranges how data from properties for each item is displayed
   return (
     <div className="item-link">
-      <div className="left-side">
         <a href={link}>
           <img className="item-link-image" src={img} alt={imgDesc} />
         </a>
         <a href={link}>
           <h4 className="item-link-text">{name}</h4>
         </a>
-      </div>
-
-      <div className="right-side">
         <a href={link}>{description()}</a>
-      </div>
     </div>
   );
 };

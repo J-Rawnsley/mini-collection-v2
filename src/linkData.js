@@ -15,6 +15,7 @@ import weatherImg from './images/weather.png';
 import flashcardImg from './images/flashcard.png';
 import readingImg from './images/readingBook.png';
 import toDoListImg from './images/toDoList.png';
+import laptopImg from './images/laptopCode.png'
 
 // set urls for item links
 const tecdoc = './collection/tec-doc-2/tec-doc-2.html';
@@ -60,16 +61,16 @@ const itemLinks = [
 		link: roman,
 		imgDesc: 'a picture of a letter V representing a roman numeral',
 		projectDesc:
-			'This is one of my early projects, which converts numbers into roman numerals, and roman numerals back into numbers.',
-		included: false,
+			'An early project, which converts numbers into roman numerals, and roman numerals back into numbers. Vanilla JS',
+		included: true,
 	},
 	{
 		name: 'Palindrome Checker',
 		img: palindromeImg,
 		link: palindrome,
 		imgDesc: 'an icon with arrows pointing left and right',
-		projectDesc: 'This is a tech doc page',
-		included: false,
+		projectDesc: 'Checks whether a word  or sentence is a palindrome (the same forward and backwards). Vanilla JS',
+		included: true,
 	},
 	{
 		name: 'Click counter',
@@ -124,7 +125,7 @@ const itemLinks = [
 	},
 	{
 		name: 'Technical Documentation Page',
-		img: book,
+		img: laptopImg,
 		link: tecdoc,
 		imgDesc: 'a stylised book icon',
 		projectDesc:
@@ -146,7 +147,7 @@ const itemLinks = [
 		link: todoLink,
 		imgDesc: 'a list icon with ticks',
 		projectDesc:
-			'Another full-stack app created with Node & Express and hosted on Railway, this time all my own work. Simple but functional.',
+			'Another full-stack app, this time all my own work. Created with Node & Express and hosted on Railway. Simple but functional.',
 		included: true,
 	},
 ];

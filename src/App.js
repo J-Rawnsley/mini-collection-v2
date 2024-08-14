@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Title />
       <Blurb />
-      <p className="blurb">Landing page code on <a href="https://github.com/J-Rawnsley/mini-collection-v2">GitHub</a></p>
+      
       <Linkbox />
     </div>
   );
