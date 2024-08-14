@@ -1,7 +1,6 @@
 // this file contains all the project information and can easily be updated when projects are added or deleted
 
 // import images
-import book from './images/book.png';
 import cafe from './images/cafe.png';
 import calculator from './images/calculator.png';
 import cat from './images/cat.png';
