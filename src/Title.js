@@ -2,7 +2,7 @@
 const Title = () => {
   return (
     <div className="main-element title">
-      <h1>Joe's Mini-Collection</h1>
+      <h1>Joe's Projects</h1>
     </div>
   );
 };
