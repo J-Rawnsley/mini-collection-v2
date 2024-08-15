@@ -6,7 +6,7 @@
     margin: 10px
 }
 
-.pad-out {
-    padding: 3rem;
-    border-radius: 13%;
-}
+.button {
+    margin: 15px;
+    padding: 2rem;
+    }
