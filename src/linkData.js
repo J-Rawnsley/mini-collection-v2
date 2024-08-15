@@ -14,7 +14,7 @@ import weatherImg from './images/weather.png';
 import flashcardImg from './images/flashcard.png';
 import readingImg from './images/readingBook.png';
 import toDoListImg from './images/toDoList.png';
-import laptopImg from './images/laptopCode.png'
+import laptopImg from './images/laptopCode.png';
 
 // set urls for item links
 const tecdoc = './collection/tec-doc-2/tec-doc-2.html';
@@ -38,14 +38,17 @@ const itemLinks = [
 		link: underConstruction,
 		imgDesc: 'placeholder',
 		included: false,
+		position: 9,
 	},
 	{
 		name: 'Calculator',
 		img: calculator,
 		link: 'https://casijoe-calculator.netlify.app/',
 		imgDesc: 'a stylised calculator icon',
-		projectDesc: 'Original work. An "Immediate Logic" calcultor that mimics classic hardware calculators. Built with React JS',
+		projectDesc:
+			'Original work. An "Immediate Logic" calcultor that mimics classic hardware calculators. Built with React JS',
 		included: true,
+		position: 1,
 	},
 	{
 		name: 'Cat Photo App',
@@ -53,6 +56,7 @@ const itemLinks = [
 		link: underConstruction,
 		imgDesc: 'placeholder',
 		included: false,
+		position: 9,
 	},
 	{
 		name: 'Roman Numeral Converter',
@@ -62,14 +66,17 @@ const itemLinks = [
 		projectDesc:
 			'An early project, which converts numbers into roman numerals, and roman numerals back into numbers. Vanilla JS',
 		included: true,
+		position: 8,
 	},
 	{
 		name: 'Palindrome Checker',
 		img: palindromeImg,
 		link: palindrome,
 		imgDesc: 'an icon with arrows pointing left and right',
-		projectDesc: 'Checks whether a word  or sentence is a palindrome (the same forward and backwards). Vanilla JS',
+		projectDesc:
+			'Checks whether a word  or sentence is a palindrome (the same forward and backwards). Vanilla JS',
 		included: true,
+		position: 7,
 	},
 	{
 		name: 'Click counter',
@@ -78,6 +85,7 @@ const itemLinks = [
 		imgDesc: 'a computer mouse icon',
 		projectDesc: 'This is a tech doc page',
 		included: false,
+		position: 9,
 	},
 
 	{
@@ -87,6 +95,7 @@ const itemLinks = [
 		imgDesc: 'a double quaver music note icon',
 		projectDesc: 'This is a tech doc page',
 		included: false,
+		position: 9,
 	},
 
 	{
@@ -95,6 +104,7 @@ const itemLinks = [
 		link: guardian,
 		imgDesc: 'a stylised newspaper icon',
 		included: false,
+		position: 9,
 	},
 	{
 		name: 'Tribute Page',
@@ -102,6 +112,7 @@ const itemLinks = [
 		link: tribute,
 		imgDesc: 'a stylised icon of a person wearing a suit',
 		included: false,
+		position: 9,
 	},
 	{
 		name: 'Weather App',
@@ -109,8 +120,9 @@ const itemLinks = [
 		link: weather,
 		imgDesc: 'an icon with a sun and a cloud',
 		projectDesc:
-			"UK weather app that calls the openweathermap.org API to display current weather for 32 towns and cities in the UK. Built with React, making use of Netlify's serverless functions to handle secrets",
+			"Calls the openweathermap.org API to get up-to-date weather for selected UK locations. Built with React and using Netlify's serverless functions to handle secrets",
 		included: true,
+		position: 2,
 	},
 	{
 		name: 'Flashcard Hint Generator',
@@ -120,7 +132,8 @@ const itemLinks = [
 			'a square with a pencil, representing a flashcard used for language learning',
 		projectDesc:
 			'A langauge learning app that calls the Free Dictionary API. Click through to the readme on Github for explanation / instructions. Uses vanilla JS with async functions, styled with bootstrap',
-      included: true,
+		included: true,
+		position: 5,
 	},
 	{
 		name: 'Technical Documentation Page',
@@ -130,6 +143,7 @@ const itemLinks = [
 		projectDesc:
 			'A copy of a single static page from the PyTest technical documentation website. I created it to learn about responsive web design using HTML and CSS.',
 		included: true,
+		position: 6,
 	},
 	{
 		name: 'Local Library Database',
@@ -137,8 +151,9 @@ const itemLinks = [
 		link: library,
 		imgDesc: 'a stylised icon showing a person reading',
 		projectDesc:
-			'A full-stack application created using Node & Express JS, hosted on Railway. I created this project by following a tutorial, which contained a number of challenges that helped me to understand node/express development',
+			'A full-stack app made with Node & Express JS. Created by following a tutorial, which included challenges that helped me understand backend development',
 		included: true,
+		position: 3,
 	},
 	{
 		name: 'To-do List',
@@ -146,9 +161,10 @@ const itemLinks = [
 		link: todoLink,
 		imgDesc: 'a list icon with ticks',
 		projectDesc:
-			'Another full-stack app, this time all my own work. Created with Node & Express and hosted on Railway. Simple but functional.',
+			'Another full-stack app, this time all my own work. Created with Node & Express and hosted on Railway with a MongoDB backend. Simple but functional.',
 		included: true,
+		position: 4,
 	},
 ];
 
-export default itemLinks;
+export default itemLinks.toSorted((a, b) => a.position - b.position);
